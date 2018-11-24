@@ -6,7 +6,7 @@ with open('PokeImageFile.txt','r') as f:
         if(i<554):
             continue
         filename = url.split('/')[-1]
-        urllib.request.urlretrieve(url, '/run/media/atom/Seagate Expansion Drive/Pokemon_Fire_Dataset/'+filename)
+        urllib.request.urlretrieve(url, 'Pokemon_Dataset/'+filename)
         print(i)
     except:
         continue
