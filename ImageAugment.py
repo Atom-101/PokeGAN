@@ -7,7 +7,7 @@ import h5py
 import cv2
 from imgaug import augmenters as iaa
 
-addresses = glob.glob("Pokemon_Fire_Dataset/*")
+addresses = glob.glob("Pokemon_Dataset/*")
 
 img = []
 for i in range(len(addresses)):
